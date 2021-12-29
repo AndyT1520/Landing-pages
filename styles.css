@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('myfont.woff2') format('woff2');
+  }
+body{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+
+}
+
+.container{
+    background-image: url(./images/moon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    height: 72px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tainouchiha{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.nav-links li:hover{
+    cursor: pointer;
+    background-color: #A7A3B4;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Title Section */
+
+.title-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(12, 20, 69, 0.5);
+    background-position: center;
+}
+
+.content-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 24px;
+    padding: 48px;
+    width: 75%;
+    border: 3px solid rgb(197, 77, 77);
+    border-radius: 200px;
+    gap: 48px;
+    box-shadow: 2px 2px 20px 2px;
+}
+
+.content-text{
+    flex-direction: column;
+    margin-left: 75px;
+    flex: 1 1 auto;
+}
+
+.content-box h1{
+    font-weight: bold;
+    font-size: 50px;
+    box-shadow: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.twitch-button{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.twitch-button:hover{
+    cursor: pointer;
+    background-color: rgb(145, 70, 255);
+}
+
+
+.vid-link{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 315px;
+}
+
+.vid-link iframe{
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+
+/* Social Hub */
+.social-hub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 50px;
+    background-color: #A7A3B4;
+}
+
+.socialtext{
+    color: white;
+    padding: 40px;
+    font-size: 50px;
+    font-family: 'Titan One', 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px black;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 36px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Titan one';
+    text-shadow: 3px 3px black;
+}
+
+h2:hover{
+    cursor: pointer;
+    background-color: #282F3F;
+}
+
+.YTchannel, .discserver, .twitterpfp, .twitchchannel{
+    border-radius: 50px;
+    border: 8px solid #282F3F;
+    box-shadow: 3px 5px 10px 5px black;
+}
+
+.YTchannel, .discserver, .twitterpfp, .twitchchannel:hover{
+    cursor: pointer;
+}
+
+.discserver, .twitterpfp, .twitchchannel{
+    height: 225px;
+    width: 225px;
+}
+
+/* Schedule */
+.footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #F5DAD1;
+}
+
+.text-schedule{
+    font-family: 'Titan one';
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.schedule{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.days, .time{
+    list-style-type: none;
+    font-size: 24px;
+    overflow: hidden;
+    font-size: 40px;
+}
